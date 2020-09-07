@@ -201,7 +201,7 @@ function register($nomor){
         curl_setopt($ch , CURLOPT_URL , 'https://api.x898xe.fun/api/login/register');
         curl_setopt($ch , CURLOPT_RETURNTRANSFER , 1);
      curl_setopt($ch , CURLOPT_POST , 1);
-         curl_setopt($ch , CURLOPT_POSTFIELDS , '{"username":"yaelah'.rand(5,100000).'","pwd":"dream5618","tel":"'.$nomor.'","code":"","agentid":"589111","devicetype":"android","version":100}'); 
+         curl_setopt($ch , CURLOPT_POSTFIELDS , '{"username":"mntapaa'.rand(5,100000).'","pwd":"mantap5618","tel":"'.$nomor.'","code":"","agentid":"589111","devicetype":"android","version":100}'); 
         curl_setopt($ch , CURLOPT_ENCODING , 'gzip');
         $headers = array();
       $headers[] = "language:ina-BA";
