@@ -4,7 +4,7 @@
    $pler = json_decode($daftar,true);
    $token = $pler["data"]["token"];
    $username = $pler["data"]["username"];
-   $nomor = "895485".rand(5,100000);
+   $nomor = "589111".rand(5,100000);
    echo "Token : $token\n";
    echo "Username : $username\n";
    echo "Password : dream5618\n";
